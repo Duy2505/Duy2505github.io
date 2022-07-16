@@ -1,0 +1,379 @@
+/*
+  Theme Name: Flatsome Child
+  Description: Multi-Purpose Responsive WooCommerce Theme
+  Author: UX-Themes
+  Template: flatsome
+  Version: 1.0
+*/
+
+#content{
+    padding-top: 10px;
+}
+
+
+.col.medium-4.small-12{
+    padding: 0 1.8px 19.6px;
+}
+
+.header-bottom-nav li{
+  margin-left: 40px;
+}
+
+.header-bottom-nav li a{
+  font-weight: normal !important;
+    font-size: 15px
+}
+
+.is-divider{
+  height: 0px;
+  background-color: white;
+}
+
+.box-text-inner.blog-post-inner h5{
+  font-weight: normal !important;
+    font-size: 17px;
+    line-height: 25px;
+    color: #205cf8;
+    margin-bottom: 10px;
+    padding: 0 29%;
+}
+
+.BLOG1 .post-item:nth-child(2) .box-text-inner.blog-post-inner h5{
+  padding: 0 20%;
+}
+
+.box-text-inner.blog-post-inner p{
+  font-weight: normal !important;
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+}
+
+li.html_topbar_left a{
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+.bg.section-bg{
+  height: 430px;
+}
+
+.TIEUDE1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #205cf8;
+    text-transform: initial;
+}
+
+.TIEUDE1 p{
+  margin-bottom: 0px;
+}
+
+.ANH1 img{
+  background-color: #f2f5f7;
+    border-radius: 99px;
+    margin-bottom: 0 !important;
+}
+
+.col-inner strong{
+  font-weight: bold;
+
+}
+
+.col-inner p{
+  margin-bottom: 5.5px;
+}
+
+.col-inner .text h3{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+div.col.TIEUDE2{
+  padding: 5.3px;
+  margin-top: -15px;
+}
+
+.section-title{
+  font-weight: normal !important;
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+}
+
+.BUTTON1 span{
+  font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #685f5f;
+    text-decoration: underline;
+}
+
+.BUTTON1 span::after{
+  content: "";
+    position: absolute;
+    background-image: url(http://https://github.com/Duy2505/Duy2505github.io/wp-content/themes/flastsome-child2/assets/images/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: -23px;
+    top: 12px;
+    width: 22px;
+    height: 8px;
+}
+
+.TIEUDE3{
+      font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    color: #205cf8;
+}
+
+.CANLE1{
+  padding-top: 50px;
+}
+
+.CANLE2{
+  padding-bottom: 5px;
+}
+
+#menu-menu-footer-2{
+  margin-top: 45px;
+}
+
+.flickity-button{
+  opacity: 1 !important;
+}
+
+.flickity-button-icon{
+  fill: #205cf8!important;
+  border-color: #205cf8 !important;
+  background-color: #205cf8 !important;
+}
+
+.XEMGIAOVIEN{
+ margin-top: -30px;
+}
+
+.BODER1{
+  margin-bottom: -50px;
+}
+
+.absolute-footer{
+  padding: 0px;
+}
+
+.item.flex_grow p{
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 5px !important;
+}
+
+.item.flex_grow img{
+    max-width: 20px;
+    height: 20px;
+}
+
+.item.flex_grow span{
+    margin-right: 10px;
+}
+
+.list_partners .image-cover{
+  padding-top: 65% !important;
+}
+
+.list_partners .image-cover img{
+  object-fit: contain;
+}
+
+#text-6{
+      border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.owl-dots{
+  margin-bottom: -100px;
+}
+
+.social{
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.social a{
+  margin-right: 20px;
+  background-color: white;
+    padding: 5px 10px;
+    border-radius: 99px;
+}
+
+.social i{
+  color: #205cf8;
+  vertical-align: middle;
+}
+
+.BUTTON5{
+  text-transform: initial;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 47px !important;
+}
+
+.button-form{
+      position: fixed !important;
+    top: 45%;
+    left: 0%;
+    z-index: 3;
+    -webkit-transform: rotate(270deg) translateY(-140%);
+    transform: rotate(270deg) translateY(-140%);
+    background-color: red !important;
+    text-transform: initial !important;
+}
+
+.form-fixed {
+    width: 35%;
+    position: fixed;
+    left: -100%;
+    top: 30%;
+    z-index: 3;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.form-fixed.active {
+    left: 0;
+}
+
+.form-fixed .form-fixed-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: left;
+}
+
+.form-fixed .box-form-inner {
+    max-width: 100%;
+    margin-left: auto;
+}
+
+.form-fixed .box-form-inner .closed {
+    margin-bottom: -86px;
+    z-index: 4;
+    float: right;
+    margin-right: -9px;
+}
+
+.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal !important;
+}
+
+.form-fixed .box-form-inner form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-fixed .box-form-inner form .title-form {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #205cf8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-fixed .box-form-inner form input {
+    border-radius: 5px;
+    position: relative;
+    padding-left: 34px;
+    height: 40px;
+}
+
+.form-fixed .box-form-inner form input[type="submit"] {
+    background-color: #161a9a !important;
+    width: 100%;
+    text-transform: initial;
+}
+
+.wpcf7-form.init h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #205cf8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header-search-lightbox a{
+  width: 19px;
+}
+
+.header-search-lightbox a::before{
+  content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(http://https://github.com/Duy2505/Duy2505github.io/wp-content/themes/flastsome-child2/assets/images/search.png) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-search-lightbox a i::before{
+  content: none;
+}
+
+.owl-stage{
+  border-top: 1px solid #f89b0f;
+  margin-top: 35px;
+}
+
+/*LIEN HE*/
+
+#breadcrumbs{
+  padding-top: 30px;
+}
+
+.section-title-main{
+  font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    color: #205cf8;
+  text-transform: inherit !important;
+}
+
+.section-title-center b{
+  color: white;
+}
+
+.row.align-middle{
+  padding-bottom: 50px;
+}
